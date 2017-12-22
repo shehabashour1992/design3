@@ -34,11 +34,13 @@
         android:orientation="horizontal"
         android:layout_weight="1">
         <ImageView
+            android:id="@+id/img1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/a"
             android:layout_weight="1"/>
         <ImageView
+            android:id="@+id/img2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/b"
@@ -52,11 +54,13 @@
         android:layout_weight="1">
 
         <ImageView
+            android:id="@+id/img3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/c"
             android:layout_weight="1"/>
         <ImageView
+            android:id="@+id/img4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/d"
